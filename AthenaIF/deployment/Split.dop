@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="Split" targetRuleProjectName="AthenaIF">
+  <name>Split</name>
+  <uuid>e0ef91a8-93a1-4d87-aec5-dd0b1bde898c</uuid>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="Split_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../AthenaIF#d932aa2e-95a6-4d65-926e-a9b4a1201514"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

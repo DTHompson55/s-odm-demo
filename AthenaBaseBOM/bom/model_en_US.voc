@@ -1,0 +1,145 @@
+# Vocabulary Properties
+uuid = 2580e864-27e7-4c10-8cfb-38bd14b457e6
+
+# decision.demo.ibm.com.BaseXOM
+decision.demo.ibm.com.BaseXOM#concept.label = base XOM
+decision.demo.ibm.com.BaseXOM._BaseXOM#phrase.action = set the base XOM of {this} to {base XOM}
+decision.demo.ibm.com.BaseXOM._BaseXOM#phrase.navigation = {base XOM} of {this}
+decision.demo.ibm.com.BaseXOM._EPSDT_Procedure_Code_Type_Data#phrase.action = set the EPSDT procedure code type data of {this} to {EPSDT procedure code type data}
+decision.demo.ibm.com.BaseXOM._EPSDT_Procedure_Code_Type_Data#phrase.navigation = {EPSDT procedure code type data} of {this}
+decision.demo.ibm.com.BaseXOM._ExclusionData#phrase.action = set the exclusion data of {this} to {exclusion data}
+decision.demo.ibm.com.BaseXOM._ExclusionData#phrase.navigation = {exclusion data} of {this}
+decision.demo.ibm.com.BaseXOM._Medicare_DME_Procedure_Code_Type_Data#phrase.action = set the medicare DME procedure code type data of {this} to {medicare DME procedure code type data}
+decision.demo.ibm.com.BaseXOM._Medicare_DME_Procedure_Code_Type_Data#phrase.navigation = {medicare DME procedure code type data} of {this}
+decision.demo.ibm.com.BaseXOM._RFPServiceTypeDecisionData#phrase.action = set the RFPService type decision data of {this} to {RFPService type decision data}
+decision.demo.ibm.com.BaseXOM._RFPServiceTypeDecisionData#phrase.navigation = {RFPService type decision data} of {this}
+decision.demo.ibm.com.BaseXOM._SplitDecisionData#phrase.action = set the split decision data of {this} to {split decision data}
+decision.demo.ibm.com.BaseXOM._SplitDecisionData#phrase.navigation = {split decision data} of {this}
+decision.demo.ibm.com.BaseXOM.__12809_AmeriHealth_Vision_Procedure_Code_Type_Data#phrase.action = set the 12809 ameri health vision procedure code type data of {this} to {12809 ameri health vision procedure code type data}
+decision.demo.ibm.com.BaseXOM.__12809_AmeriHealth_Vision_Procedure_Code_Type_Data#phrase.navigation = {12809 ameri health vision procedure code type data} of {this}
+
+# decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data#concept.label = EPSDT procedure code type data
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Charge_From_Date_1#phrase.action = set the charge from date 1 of {this} to {charge from date 1}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Charge_From_Date_1#phrase.navigation = {charge from date 1} of {this}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Charge_From_Date_2#phrase.action = set the charge from date 2 of {this} to {charge from date 2}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Charge_From_Date_2#phrase.navigation = {charge from date 2} of {this}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Charge_To_Date#phrase.action = set the charge to date of {this} to {charge to date}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Charge_To_Date#phrase.navigation = {charge to date} of {this}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Diagnosis_Code#phrase.action = set the diagnosis code of {this} to {diagnosis code}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Diagnosis_Code#phrase.navigation = {diagnosis code} of {this}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Dx_Codeset#phrase.action = set the dx codeset of {this} to {dx codeset}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Dx_Codeset#phrase.navigation = {dx codeset} of {this}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.EPSDT_YN_Indicator#phrase.action = set the EPSDT YN indicator of {this} to {EPSDT YN indicator}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.EPSDT_YN_Indicator#phrase.navigation = {EPSDT YN indicator} of {this}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Healthcare_Claim_Type#phrase.action = set the healthcare claim type of {this} to {healthcare claim type}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Healthcare_Claim_Type#phrase.navigation = {healthcare claim type} of {this}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Message#phrase.action = set the message of {this} to {message}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Message#phrase.navigation = {message} of {this}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Modifier_List_For_All_Procedure#phrase.action = set the modifier list for all procedure of {this} to {modifier list for all procedure}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Modifier_List_For_All_Procedure#phrase.navigation = {modifier list for all procedure} of {this}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Note#phrase.action = set the note of {this} to {note}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Note#phrase.navigation = {note} of {this}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Patient_Age#phrase.action = set the patient age of {this} to {patient age}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Patient_Age#phrase.navigation = {patient age} of {this}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Procedure_Code#phrase.action = set the procedure code of {this} to {procedure code}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Procedure_Code#phrase.navigation = {procedure code} of {this}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Procedure_Code_Type#phrase.action = set the procedure code type of {this} to {procedure code type}
+decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data.Procedure_Code_Type#phrase.navigation = {procedure code type} of {this}
+
+# decision.demo.ibm.com.ExclusionData
+decision.demo.ibm.com.ExclusionData#concept.label = exclusion data
+decision.demo.ibm.com.ExclusionData.Message#phrase.action = set the message of {this} to {message}
+decision.demo.ibm.com.ExclusionData.Message#phrase.navigation = {message} of {this}
+decision.demo.ibm.com.ExclusionData.Procedure_Code#phrase.action = set the procedure code of {this} to {procedure code}
+decision.demo.ibm.com.ExclusionData.Procedure_Code#phrase.navigation = {procedure code} of {this}
+decision.demo.ibm.com.ExclusionData.Procedure_Code_Excluded#phrase.action = make it {procedure code excluded} that {this} is procedure code excluded
+decision.demo.ibm.com.ExclusionData.Procedure_Code_Excluded#phrase.navigation = {this} is procedure code excluded
+decision.demo.ibm.com.ExclusionData.Procedure_Code_Type#phrase.action = set the procedure code type of {this} to {procedure code type}
+decision.demo.ibm.com.ExclusionData.Procedure_Code_Type#phrase.navigation = {procedure code type} of {this}
+
+# decision.demo.ibm.com.Medicare_DME_Procedure_Code_Type_Data
+decision.demo.ibm.com.Medicare_DME_Procedure_Code_Type_Data#concept.label = medicare DME procedure code type data
+decision.demo.ibm.com.Medicare_DME_Procedure_Code_Type_Data.End_Service_Date#phrase.action = set the end service date of {this} to {end service date}
+decision.demo.ibm.com.Medicare_DME_Procedure_Code_Type_Data.End_Service_Date#phrase.navigation = {end service date} of {this}
+decision.demo.ibm.com.Medicare_DME_Procedure_Code_Type_Data.Insurance_Package#phrase.action = set the insurance package of {this} to {insurance package}
+decision.demo.ibm.com.Medicare_DME_Procedure_Code_Type_Data.Insurance_Package#phrase.navigation = {insurance package} of {this}
+decision.demo.ibm.com.Medicare_DME_Procedure_Code_Type_Data.Message#phrase.action = set the message of {this} to {message}
+decision.demo.ibm.com.Medicare_DME_Procedure_Code_Type_Data.Message#phrase.navigation = {message} of {this}
+decision.demo.ibm.com.Medicare_DME_Procedure_Code_Type_Data.Procedure_Code#phrase.action = set the procedure code of {this} to {procedure code}
+decision.demo.ibm.com.Medicare_DME_Procedure_Code_Type_Data.Procedure_Code#phrase.navigation = {procedure code} of {this}
+decision.demo.ibm.com.Medicare_DME_Procedure_Code_Type_Data.Procedure_Code_Type#phrase.action = set the procedure code type of {this} to {procedure code type}
+decision.demo.ibm.com.Medicare_DME_Procedure_Code_Type_Data.Procedure_Code_Type#phrase.navigation = {procedure code type} of {this}
+decision.demo.ibm.com.Medicare_DME_Procedure_Code_Type_Data.Start_Service_Date#phrase.action = set the start service date of {this} to {start service date}
+decision.demo.ibm.com.Medicare_DME_Procedure_Code_Type_Data.Start_Service_Date#phrase.navigation = {start service date} of {this}
+
+# decision.demo.ibm.com.RFPServiceTypeDecisionData
+decision.demo.ibm.com.RFPServiceTypeDecisionData#concept.label = RFPService type decision data
+decision.demo.ibm.com.RFPServiceTypeDecisionData.FQHC_Service_Type#phrase.action = set the FQHC service type of {this} to {FQHC service type}
+decision.demo.ibm.com.RFPServiceTypeDecisionData.FQHC_Service_Type#phrase.navigation = {FQHC service type} of {this}
+decision.demo.ibm.com.RFPServiceTypeDecisionData.Message#phrase.action = set the message of {this} to {message}
+decision.demo.ibm.com.RFPServiceTypeDecisionData.Message#phrase.navigation = {message} of {this}
+decision.demo.ibm.com.RFPServiceTypeDecisionData.PBC_Service_Type#phrase.action = set the PBC service type of {this} to {PBC service type}
+decision.demo.ibm.com.RFPServiceTypeDecisionData.PBC_Service_Type#phrase.navigation = {PBC service type} of {this}
+decision.demo.ibm.com.RFPServiceTypeDecisionData.RFP_Service_Type_Set#phrase.action = make it {RFP service type set} that {this} is RFP service type set
+decision.demo.ibm.com.RFPServiceTypeDecisionData.RFP_Service_Type_Set#phrase.navigation = {this} is RFP service type set
+decision.demo.ibm.com.RFPServiceTypeDecisionData.RHC_Service_Type#phrase.action = set the RHC service type of {this} to {RHC service type}
+decision.demo.ibm.com.RFPServiceTypeDecisionData.RHC_Service_Type#phrase.navigation = {RHC service type} of {this}
+
+# decision.demo.ibm.com.SplitDecisionData
+decision.demo.ibm.com.SplitDecisionData#concept.label = split decision data
+decision.demo.ibm.com.SplitDecisionData.Adjudication_Program#phrase.action = set the adjudication program of {this} to {adjudication program}
+decision.demo.ibm.com.SplitDecisionData.Adjudication_Program#phrase.navigation = {adjudication program} of {this}
+decision.demo.ibm.com.SplitDecisionData.CRC_Payer#phrase.action = set the CRC payer of {this} to {CRC payer}
+decision.demo.ibm.com.SplitDecisionData.CRC_Payer#phrase.navigation = {CRC payer} of {this}
+decision.demo.ibm.com.SplitDecisionData.Context#phrase.action = set the context of {this} to {context}
+decision.demo.ibm.com.SplitDecisionData.Context#phrase.navigation = {context} of {this}
+decision.demo.ibm.com.SplitDecisionData.Current_Rule_ID#phrase.action = set the current rule ID of {this} to {current rule ID}
+decision.demo.ibm.com.SplitDecisionData.Current_Rule_ID#phrase.navigation = {current rule ID} of {this}
+decision.demo.ibm.com.SplitDecisionData.Insurance_Package#phrase.action = set the insurance package of {this} to {insurance package}
+decision.demo.ibm.com.SplitDecisionData.Insurance_Package#phrase.navigation = {insurance package} of {this}
+decision.demo.ibm.com.SplitDecisionData.Insured_State#phrase.action = set the insured state of {this} to {insured state}
+decision.demo.ibm.com.SplitDecisionData.Insured_State#phrase.navigation = {insured state} of {this}
+decision.demo.ibm.com.SplitDecisionData.Medicare_Replacement#phrase.action = set the medicare replacement of {this} to {medicare replacement}
+decision.demo.ibm.com.SplitDecisionData.Medicare_Replacement#phrase.navigation = {medicare replacement} of {this}
+decision.demo.ibm.com.SplitDecisionData.NOTES#phrase.action = set the NOTES of {this} to {NOTES}
+decision.demo.ibm.com.SplitDecisionData.NOTES#phrase.navigation = {NOTES} of {this}
+decision.demo.ibm.com.SplitDecisionData.NoteText#phrase.action = set the note text of {this} to {note text}
+decision.demo.ibm.com.SplitDecisionData.NoteText#phrase.navigation = {note text} of {this}
+decision.demo.ibm.com.SplitDecisionData.NoteText_2_If_claim_contains_both_DME_and_non_DME_charges#phrase.action = set the note text 2 of {this} to {note text 2}
+decision.demo.ibm.com.SplitDecisionData.NoteText_2_If_claim_contains_both_DME_and_non_DME_charges#phrase.navigation = {note text 2} of {this}
+decision.demo.ibm.com.SplitDecisionData.Payer_CSC#phrase.action = set the payer CSC of {this} to {payer CSC}
+decision.demo.ibm.com.SplitDecisionData.Payer_CSC#phrase.navigation = {payer CSC} of {this}
+decision.demo.ibm.com.SplitDecisionData.Payer_IRC#phrase.action = set the payer IRC of {this} to {payer IRC}
+decision.demo.ibm.com.SplitDecisionData.Payer_IRC#phrase.navigation = {payer IRC} of {this}
+decision.demo.ibm.com.SplitDecisionData.Procedure_Code_Excluded#phrase.action = set the procedure code excluded of {this} to {procedure code excluded}
+decision.demo.ibm.com.SplitDecisionData.Procedure_Code_Excluded#phrase.navigation = {procedure code excluded} of {this}
+decision.demo.ibm.com.SplitDecisionData.Procedure_Code_Type#phrase.action = set the procedure code type of {this} to {procedure code type}
+decision.demo.ibm.com.SplitDecisionData.Procedure_Code_Type#phrase.navigation = {procedure code type} of {this}
+decision.demo.ibm.com.SplitDecisionData.RFP_Service_Type_Set#phrase.action = set the RFP service type set of {this} to {RFP service type set}
+decision.demo.ibm.com.SplitDecisionData.RFP_Service_Type_Set#phrase.navigation = {RFP service type set} of {this}
+decision.demo.ibm.com.SplitDecisionData.Rule_Name#phrase.action = set the rule name of {this} to {rule name}
+decision.demo.ibm.com.SplitDecisionData.Rule_Name#phrase.navigation = {rule name} of {this}
+decision.demo.ibm.com.SplitDecisionData.Split_Required#phrase.action = set the split required of {this} to {split required}
+decision.demo.ibm.com.SplitDecisionData.Split_Required#phrase.navigation = {split required} of {this}
+decision.demo.ibm.com.SplitDecisionData.Split_What#phrase.action = set the split what of {this} to {split what}
+decision.demo.ibm.com.SplitDecisionData.Split_What#phrase.navigation = {split what} of {this}
+decision.demo.ibm.com.SplitDecisionData.Split_to_Package#phrase.action = set the split to package of {this} to {split to package}
+decision.demo.ibm.com.SplitDecisionData.Split_to_Package#phrase.navigation = {split to package} of {this}
+decision.demo.ibm.com.SplitDecisionData.Split_to_Service_Department#phrase.action = set the split to service department of {this} to {split to service department}
+decision.demo.ibm.com.SplitDecisionData.Split_to_Service_Department#phrase.navigation = {split to service department} of {this}
+
+# decision.demo.ibm.com._12809_AmeriHealth_Vision_Procedure_Code_Type_Data
+decision.demo.ibm.com._12809_AmeriHealth_Vision_Procedure_Code_Type_Data#concept.label = 12809 ameri health vision procedure code type data
+decision.demo.ibm.com._12809_AmeriHealth_Vision_Procedure_Code_Type_Data.Context_ID#phrase.action = set the context ID of {this} to {context ID}
+decision.demo.ibm.com._12809_AmeriHealth_Vision_Procedure_Code_Type_Data.Context_ID#phrase.navigation = {context ID} of {this}
+decision.demo.ibm.com._12809_AmeriHealth_Vision_Procedure_Code_Type_Data.End_Service_Date#phrase.action = set the end service date of {this} to {end service date}
+decision.demo.ibm.com._12809_AmeriHealth_Vision_Procedure_Code_Type_Data.End_Service_Date#phrase.navigation = {end service date} of {this}
+decision.demo.ibm.com._12809_AmeriHealth_Vision_Procedure_Code_Type_Data.Message#phrase.action = set the message of {this} to {message}
+decision.demo.ibm.com._12809_AmeriHealth_Vision_Procedure_Code_Type_Data.Message#phrase.navigation = {message} of {this}
+decision.demo.ibm.com._12809_AmeriHealth_Vision_Procedure_Code_Type_Data.Procedure_Code#phrase.action = set the procedure code of {this} to {procedure code}
+decision.demo.ibm.com._12809_AmeriHealth_Vision_Procedure_Code_Type_Data.Procedure_Code#phrase.navigation = {procedure code} of {this}
+decision.demo.ibm.com._12809_AmeriHealth_Vision_Procedure_Code_Type_Data.Procedure_Code_Type#phrase.action = set the procedure code type of {this} to {procedure code type}
+decision.demo.ibm.com._12809_AmeriHealth_Vision_Procedure_Code_Type_Data.Procedure_Code_Type#phrase.navigation = {procedure code type} of {this}
+decision.demo.ibm.com._12809_AmeriHealth_Vision_Procedure_Code_Type_Data.Start_Service_Date#phrase.action = set the start service date of {this} to {start service date}
+decision.demo.ibm.com._12809_AmeriHealth_Vision_Procedure_Code_Type_Data.Start_Service_Date#phrase.navigation = {start service date} of {this}

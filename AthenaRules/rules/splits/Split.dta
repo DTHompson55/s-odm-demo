@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.dt:DecisionTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.dt="http://ilog.rules.studio/model/dt.ecore">
+  <name>Split</name>
+  <uuid>2a954e9b-1e00-4bfd-a9a4-2ee2bfc35f6b</uuid>
+  <locale>en_US</locale>
+  <definition>
+<DT Version="7.0" xmlns="http://schemas.ilog.com/Rules/7.0/DecisionTable">
+  <Body>
+    <Structure>
+      <ConditionDefinitions>
+        <ConditionDefinition Id="C0">
+          <ExpressionDefinition>
+            <Text><![CDATA[the context of the split decision data of SplitData is <a string>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C1">
+          <ExpressionDefinition>
+            <Text><![CDATA[the adjudication program of the split decision data of SplitData is <a string>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C3">
+          <ExpressionDefinition>
+            <Text><![CDATA[the CRC payer of the split decision data of SplitData is <a string>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C4">
+          <ExpressionDefinition>
+            <Text><![CDATA[the payer CSC of the split decision data of SplitData is <a string>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C5">
+          <ExpressionDefinition>
+            <Text><![CDATA[the payer IRC of the split decision data of SplitData is <a string>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C6">
+          <ExpressionDefinition>
+            <Text><![CDATA[the insurance package of the split decision data of SplitData is <a string>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C7">
+          <ExpressionDefinition>
+            <Text><![CDATA[the medicare replacement of the split decision data of SplitData is <a string>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C8">
+          <ExpressionDefinition>
+            <Text><![CDATA[the procedure code excluded of the split decision data of SplitData is <a string>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C9">
+          <ExpressionDefinition>
+            <Text><![CDATA[the insured state of the split decision data of SplitData is <a string>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C2">
+          <ExpressionDefinition>
+            <Text><![CDATA[the procedure code type of the split decision data of SplitData is <a string>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+        <ConditionDefinition Id="C10">
+          <ExpressionDefinition>
+            <Text><![CDATA[the RFP service type set of the split decision data of SplitData is <a string>]]></Text>
+          </ExpressionDefinition>
+        </ConditionDefinition>
+      </ConditionDefinitions>
+      <ActionDefinitions>
+        <ActionDefinition Id="A1">
+          <ExpressionDefinition>
+            <Text><![CDATA[set the split required of the split decision data of SplitData to <a string>]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A2">
+          <ExpressionDefinition>
+            <Text><![CDATA[set the split what of the split decision data of SplitData to <a string>]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A3">
+          <ExpressionDefinition>
+            <Text><![CDATA[set the split to service department of the split decision data of SplitData to <a string>]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A4">
+          <ExpressionDefinition>
+            <Text><![CDATA[set the note text of the split decision data of SplitData to <a string>]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A5">
+          <ExpressionDefinition>
+            <Text><![CDATA[set the note text 2 of the split decision data of SplitData to <a string>]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A6">
+          <ExpressionDefinition>
+            <Text><![CDATA[set the rule name of the split decision data of SplitData to <a string>]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A7">
+          <ExpressionDefinition>
+            <Text><![CDATA[set the current rule ID of the split decision data of SplitData to <a string>]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A0">
+          <ExpressionDefinition>
+            <Text><![CDATA[set the NOTES of the split decision data of SplitData to <a string>]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+        <ActionDefinition Id="A8">
+          <ExpressionDefinition>
+            <Text><![CDATA[set the split to package of the split decision data of SplitData to <a string>]]></Text>
+          </ExpressionDefinition>
+        </ActionDefinition>
+      </ActionDefinitions>
+    </Structure>
+    <Contents>
+      <Partition DefId="C0">
+        <Condition>
+          <Expression>
+            <Param><![CDATA["1"]]></Param>
+          </Expression>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression>
+                <Param><![CDATA["Y"]]></Param>
+              </Expression>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression>
+            <Param/>
+          </Expression>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+        <Condition>
+          <Expression/>
+          <ActionSet>
+            <Action DefId="A1">
+              <Expression/>
+            </Action>
+            <Action DefId="A2">
+              <Expression/>
+            </Action>
+            <Action DefId="A3">
+              <Expression/>
+            </Action>
+            <Action DefId="A4">
+              <Expression/>
+            </Action>
+            <Action DefId="A5">
+              <Expression>
+                <Param/>
+              </Expression>
+            </Action>
+            <Action DefId="A6">
+              <Expression/>
+            </Action>
+            <Action DefId="A7">
+              <Expression/>
+            </Action>
+            <Action DefId="A0">
+              <Expression/>
+            </Action>
+            <Action DefId="A8">
+              <Expression/>
+            </Action>
+          </ActionSet>
+        </Condition>
+      </Partition>
+    </Contents>
+  </Body>
+  <Resources DefaultLocale="en_US">
+    <ResourceSet Locale="en_US">
+      <Data Name="Definitions(A0)#HeaderText"><![CDATA[NOTES]]></Data>
+      <Data Name="Definitions(A0)#Width"><![CDATA[40]]></Data>
+      <Data Name="Definitions(A1)#HeaderText"><![CDATA[Split Required]]></Data>
+      <Data Name="Definitions(A1)#Width"><![CDATA[99]]></Data>
+      <Data Name="Definitions(A2)#HeaderText"><![CDATA[Split What?]]></Data>
+      <Data Name="Definitions(A2)#Width"><![CDATA[69]]></Data>
+      <Data Name="Definitions(A3)#HeaderText"><![CDATA[Split to Service Department]]></Data>
+      <Data Name="Definitions(A3)#Width"><![CDATA[38]]></Data>
+      <Data Name="Definitions(A4)#HeaderText"><![CDATA[NoteText]]></Data>
+      <Data Name="Definitions(A4)#Width"><![CDATA[39]]></Data>
+      <Data Name="Definitions(A5)#HeaderText"><![CDATA[NoteText 2 (If claim contains both DME and non-DME charges)]]></Data>
+      <Data Name="Definitions(A5)#Width"><![CDATA[40]]></Data>
+      <Data Name="Definitions(A6)#HeaderText"><![CDATA[Rule Name]]></Data>
+      <Data Name="Definitions(A6)#Width"><![CDATA[40]]></Data>
+      <Data Name="Definitions(A7)#HeaderText"><![CDATA[Current Rule ID]]></Data>
+      <Data Name="Definitions(A7)#Width"><![CDATA[36]]></Data>
+      <Data Name="Definitions(A8)#HeaderText"><![CDATA[Split to Package]]></Data>
+      <Data Name="Definitions(A8)#Width"><![CDATA[40]]></Data>
+      <Data Name="Definitions(C0)#HeaderText"><![CDATA[Context]]></Data>
+      <Data Name="Definitions(C0)#Width"><![CDATA[64]]></Data>
+      <Data Name="Definitions(C1)#HeaderText"><![CDATA[Adjudication Program]]></Data>
+      <Data Name="Definitions(C1)#Width"><![CDATA[63]]></Data>
+      <Data Name="Definitions(C10)#HeaderText"><![CDATA[RFP Service Type Set]]></Data>
+      <Data Name="Definitions(C10)#Width"><![CDATA[54]]></Data>
+      <Data Name="Definitions(C2)#HeaderText"><![CDATA[Procedure Code Excluded]]></Data>
+      <Data Name="Definitions(C2)#Width"><![CDATA[55]]></Data>
+      <Data Name="Definitions(C3)#HeaderText"><![CDATA[CRC (Payer)]]></Data>
+      <Data Name="Definitions(C3)#Width"><![CDATA[44]]></Data>
+      <Data Name="Definitions(C4)#HeaderText"><![CDATA[Payer (IRC)]]></Data>
+      <Data Name="Definitions(C4)#Width"><![CDATA[45]]></Data>
+      <Data Name="Definitions(C5)#HeaderText"><![CDATA[Payer (CSC)]]></Data>
+      <Data Name="Definitions(C5)#Width"><![CDATA[47]]></Data>
+      <Data Name="Definitions(C6)#HeaderText"><![CDATA[Insurance Package]]></Data>
+      <Data Name="Definitions(C6)#Width"><![CDATA[49]]></Data>
+      <Data Name="Definitions(C7)#HeaderText"><![CDATA[Medicare Replacement]]></Data>
+      <Data Name="Definitions(C7)#Width"><![CDATA[51]]></Data>
+      <Data Name="Definitions(C8)#HeaderText"><![CDATA[Procedure Code Type]]></Data>
+      <Data Name="Definitions(C8)#Width"><![CDATA[55]]></Data>
+      <Data Name="Definitions(C9)#HeaderText"><![CDATA[Insured State]]></Data>
+      <Data Name="Definitions(C9)#Width"><![CDATA[54]]></Data>
+    </ResourceSet>
+  </Resources>
+</DT>
+</definition>
+</ilog.rules.studio.model.dt:DecisionTable>

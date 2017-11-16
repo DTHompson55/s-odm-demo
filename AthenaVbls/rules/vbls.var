@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>vbls</name>
+  <uuid>16a71b12-a268-49b2-bb95-fd16cea2d635</uuid>
+  <variables name="splitData" type="decision.demo.ibm.com.BaseXOM" initialValue="" verbalization="SplitData"/>
+</ilog.rules.studio.model.base:VariableSet>

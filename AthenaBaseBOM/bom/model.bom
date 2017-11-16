@@ -1,0 +1,103 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/AthenaBaseBOM//AthenaBaseXOM"
+property uuid "dea1a506-e9ce-4cec-aa0e-d6ac830ea2e7"
+package decision.demo.ibm.com;
+
+
+public class BaseXOM
+{
+    public decision.demo.ibm.com.BaseXOM _BaseXOM;
+    public decision.demo.ibm.com.EPSDT_Procedure_Code_Type_Data _EPSDT_Procedure_Code_Type_Data;
+    public decision.demo.ibm.com.ExclusionData _ExclusionData;
+    public decision.demo.ibm.com.Medicare_DME_Procedure_Code_Type_Data _Medicare_DME_Procedure_Code_Type_Data;
+    public decision.demo.ibm.com.RFPServiceTypeDecisionData _RFPServiceTypeDecisionData;
+    public decision.demo.ibm.com.SplitDecisionData _SplitDecisionData;
+    public decision.demo.ibm.com._12809_AmeriHealth_Vision_Procedure_Code_Type_Data __12809_AmeriHealth_Vision_Procedure_Code_Type_Data;
+    public BaseXOM();
+}
+
+public class EPSDT_Procedure_Code_Type_Data
+{
+    public string Charge_From_Date_1;
+    public string Charge_From_Date_2;
+    public string Charge_To_Date;
+    public string Diagnosis_Code;
+    public string Dx_Codeset;
+    public string EPSDT_YN_Indicator;
+    public string Healthcare_Claim_Type;
+    public string Message;
+    public string Modifier_List_For_All_Procedure;
+    public string Note;
+    public string Patient_Age;
+    public string Procedure_Code;
+    public string Procedure_Code_Type;
+    public EPSDT_Procedure_Code_Type_Data();
+}
+
+public class ExclusionData
+{
+    public string Message;
+    public string Procedure_Code;
+    public boolean Procedure_Code_Excluded;
+    public string Procedure_Code_Type;
+    public ExclusionData();
+}
+
+public class Medicare_DME_Procedure_Code_Type_Data
+{
+    public string End_Service_Date;
+    public string Insurance_Package;
+    public string Message;
+    public string Procedure_Code;
+    public string Procedure_Code_Type;
+    public string Start_Service_Date;
+    public Medicare_DME_Procedure_Code_Type_Data();
+}
+
+public class RFPServiceTypeDecisionData
+{
+    public string FQHC_Service_Type;
+    public string Message;
+    public string PBC_Service_Type;
+    public boolean RFP_Service_Type_Set;
+    public string RHC_Service_Type;
+    public RFPServiceTypeDecisionData();
+}
+
+public class SplitDecisionData
+{
+    public string Adjudication_Program domain {"Medicare", "Other", " "};
+    public string CRC_Payer;
+    public string Context;
+    public string Current_Rule_ID;
+    public string Insurance_Package;
+    public string Insured_State;
+    public string Medicare_Replacement;
+    public string NOTES;
+    public string NoteText;
+    public string NoteText_2_If_claim_contains_both_DME_and_non_DME_charges;
+    public string Payer_CSC;
+    public string Payer_IRC;
+    public string Procedure_Code_Excluded;
+    public string Procedure_Code_Type;
+    public string RFP_Service_Type_Set;
+    public string Rule_Name;
+    public string Split_Required domain {"N", " ", "Y"};
+    public string Split_What;
+    public string Split_to_Package;
+    public string Split_to_Service_Department;
+    public SplitDecisionData();
+}
+
+public class _12809_AmeriHealth_Vision_Procedure_Code_Type_Data
+{
+    public string Context_ID;
+    public string End_Service_Date;
+    public string Message;
+    public string Procedure_Code;
+    public string Procedure_Code_Type;
+    public string Start_Service_Date;
+    public _12809_AmeriHealth_Vision_Procedure_Code_Type_Data();
+}
+
